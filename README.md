@@ -13,37 +13,38 @@ vs code 远程连接linux ubuntu20.04.5开发 + CMake构建
 # 具体实现细节博客
 https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
 # 使用方法
-编写shell脚本：
+执行autobuild.sh脚本执行CMakeList生成libmymuduo.so库
+并将库文件拷贝到 /usr/lib路径下
     #!/bin/bash
-    
     set -e
-    
     # 如果没有build目录，创建该目录
     if [ ! -d `pwd`/build ]; then
         mkdir `pwd`/build
     fi
-    
     rm -rf `pwd`/build/*
-    
     cd `pwd`/build &&
         cmake .. &&
         make
     
     # 回到项目根目录
     cd ..
-    
     # 把头文件拷贝到 /usr/include/mymuduo  so库拷贝到 /usr/lib    PATH
     if [ ! -d /usr/include/mymuduo ]; then 
         mkdir /usr/include/mymuduo
     fi
-    
     # 拷贝头文件 
     for header in $(find src -type f -name "*.h"); 
     do
         cp $header /usr/include/mymuduo
     done
-    
     #拷贝库文件
     cp `pwd`/lib/libmymuduo.so /usr/lib
-    
     ldconfig
+# 使用运行案例
+## EchoServer 回响服务器
+这里以一个简单的回声服务器作为案例，EchoServer默认监听端口为8080。
+![image](https://github.com/8upersaiyan/CKmuduo/assets/102213169/4fa91142-34a6-4ad7-a546-3eebb984db75)
+
+
+
+
