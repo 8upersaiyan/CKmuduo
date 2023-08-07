@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mymuduo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mymuduo-00f2d34395d82b7ffa31.json",
+					"jsonFile" : "target-mymuduo-0249af283a4cafb612b6.json",
 					"name" : "mymuduo",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/c++/MyMuduo/CKmuduo/build",
-		"source" : "/c++/MyMuduo/CKmuduo"
+		"build" : "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+		"source" : "/c++/MyMuduo/CKmuduo/CKmuduo"
 	},
 	"version" : 
 	{

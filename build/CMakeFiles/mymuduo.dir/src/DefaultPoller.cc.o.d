@@ -1,7 +1,9 @@
 CMakeFiles/mymuduo.dir/src/DefaultPoller.cc.o: \
- /c++/MyMuduo/CKmuduo/src/DefaultPoller.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Poller.h /c++/MyMuduo/CKmuduo/src/noncopyable.h \
- /c++/MyMuduo/CKmuduo/src/Timestamp.h /usr/include/c++/10/iostream \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/DefaultPoller.cc \
+ /usr/include/stdc-predef.h /c++/MyMuduo/CKmuduo/CKmuduo/src/Poller.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/noncopyable.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Timestamp.h \
+ /usr/include/c++/10/iostream \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -132,5 +134,5 @@ CMakeFiles/mymuduo.dir/src/DefaultPoller.cc.o: \
  /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/limits \
  /usr/include/c++/10/bits/unordered_map.h \
  /usr/include/c++/10/bits/erase_if.h \
- /c++/MyMuduo/CKmuduo/src/EPollPoller.h /usr/include/sys/epoll.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/EPollPoller.h /usr/include/sys/epoll.h \
  /usr/include/bits/epoll.h /usr/include/c++/10/stdlib.h

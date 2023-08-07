@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/c++/MyMuduo/CKmuduo/build"
+			"value" : "/c++/MyMuduo/CKmuduo/CKmuduo/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/c++/MyMuduo/CKmuduo"
+			"value" : "/c++/MyMuduo/CKmuduo/CKmuduo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/c++/MyMuduo/CKmuduo/build"
+			"value" : "/c++/MyMuduo/CKmuduo/CKmuduo/build"
 		},
 		{
 			"name" : "mymuduo_SOURCE_DIR",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/c++/MyMuduo/CKmuduo"
+			"value" : "/c++/MyMuduo/CKmuduo/CKmuduo"
 		}
 	],
 	"kind" : "cache",

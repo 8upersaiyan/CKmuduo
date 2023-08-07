@@ -1,6 +1,7 @@
 CMakeFiles/mymuduo.dir/src/InetAddress.cc.o: \
- /c++/MyMuduo/CKmuduo/src/InetAddress.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/InetAddress.h /usr/include/arpa/inet.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/InetAddress.cc \
+ /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/InetAddress.h /usr/include/arpa/inet.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \

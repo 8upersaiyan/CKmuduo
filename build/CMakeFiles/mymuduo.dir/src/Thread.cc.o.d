@@ -1,6 +1,7 @@
 CMakeFiles/mymuduo.dir/src/Thread.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Thread.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Thread.h /c++/MyMuduo/CKmuduo/src/noncopyable.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Thread.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Thread.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/noncopyable.h \
  /usr/include/c++/10/functional \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
@@ -122,7 +123,7 @@ CMakeFiles/mymuduo.dir/src/Thread.cc.o: \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/c++/10/bits/charconv.h \
  /usr/include/c++/10/bits/basic_string.tcc /usr/include/c++/10/atomic \
- /c++/MyMuduo/CKmuduo/src/CurrentThread.h /usr/include/unistd.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/CurrentThread.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \

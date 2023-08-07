@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/c++/MyMuduo/CKmuduo/lib/libmymuduo.so"
+			"path" : "/c++/MyMuduo/CKmuduo/CKmuduo/lib/libmymuduo.so"
 		}
 	],
 	"backtrace" : 1,

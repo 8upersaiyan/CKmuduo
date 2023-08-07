@@ -2,6 +2,7 @@
 #define HTTP_HTTPRESPONSE_H
 
 #include <unordered_map>
+#include <string>
 
 class Buffer;
 class HttpResponse

@@ -1,6 +1,7 @@
 CMakeFiles/mymuduo.dir/src/CurrentThread.cc.o: \
- /c++/MyMuduo/CKmuduo/src/CurrentThread.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/CurrentThread.h /usr/include/unistd.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/CurrentThread.cc \
+ /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/CurrentThread.h /usr/include/unistd.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \

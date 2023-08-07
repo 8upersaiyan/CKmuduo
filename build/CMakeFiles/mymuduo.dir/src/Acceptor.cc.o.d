@@ -1,8 +1,10 @@
 CMakeFiles/mymuduo.dir/src/Acceptor.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Acceptor.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Acceptor.h \
- /c++/MyMuduo/CKmuduo/src/noncopyable.h /c++/MyMuduo/CKmuduo/src/Socket.h \
- /c++/MyMuduo/CKmuduo/src/Channel.h /c++/MyMuduo/CKmuduo/src/Timestamp.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Acceptor.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Acceptor.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/noncopyable.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Socket.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Channel.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Timestamp.h \
  /usr/include/c++/10/iostream \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
@@ -141,7 +143,7 @@ CMakeFiles/mymuduo.dir/src/Acceptor.cc.o: \
  /usr/include/c++/10/bits/atomic_base.h \
  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
  /usr/include/c++/10/backward/auto_ptr.h \
- /c++/MyMuduo/CKmuduo/src/InetAddress.h /usr/include/arpa/inet.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/InetAddress.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/sys/socket.h \
  /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
  /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
@@ -152,7 +154,7 @@ CMakeFiles/mymuduo.dir/src/Acceptor.cc.o: \
  /usr/include/asm-generic/bitsperlong.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/bits/types/struct_osockaddr.h /usr/include/bits/in.h \
- /c++/MyMuduo/CKmuduo/src/Logger.h /usr/include/unistd.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Logger.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h

@@ -703,8 +703,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/c++/MyMuduo/CKmuduo/build",
-		"source" : "/c++/MyMuduo/CKmuduo"
+		"build" : "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+		"source" : "/c++/MyMuduo/CKmuduo/CKmuduo"
 	},
 	"version" : 
 	{

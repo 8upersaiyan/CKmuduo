@@ -1,6 +1,6 @@
 CMakeFiles/mymuduo.dir/src/Buffer.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Buffer.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Buffer.h /usr/include/c++/10/vector \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer.h /usr/include/c++/10/vector \
  /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \

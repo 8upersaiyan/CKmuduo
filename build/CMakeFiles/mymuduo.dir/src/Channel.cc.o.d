@@ -1,8 +1,9 @@
 CMakeFiles/mymuduo.dir/src/Channel.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Channel.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Channel.h \
- /c++/MyMuduo/CKmuduo/src/noncopyable.h \
- /c++/MyMuduo/CKmuduo/src/Timestamp.h /usr/include/c++/10/iostream \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Channel.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Channel.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/noncopyable.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Timestamp.h \
+ /usr/include/c++/10/iostream \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -140,7 +141,7 @@ CMakeFiles/mymuduo.dir/src/Channel.cc.o: \
  /usr/include/c++/10/bits/atomic_base.h \
  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
  /usr/include/c++/10/backward/auto_ptr.h \
- /c++/MyMuduo/CKmuduo/src/EventLoop.h /usr/include/c++/10/vector \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/EventLoop.h /usr/include/c++/10/vector \
  /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
  /usr/include/c++/10/bits/vector.tcc /usr/include/c++/10/atomic \
@@ -149,11 +150,11 @@ CMakeFiles/mymuduo.dir/src/Channel.cc.o: \
  /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /usr/include/c++/10/bits/std_mutex.h \
  /usr/include/c++/10/bits/unique_lock.h \
- /c++/MyMuduo/CKmuduo/src/CurrentThread.h /usr/include/unistd.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/CurrentThread.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
  /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
  /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
- /c++/MyMuduo/CKmuduo/src/Logger.h /usr/include/sys/epoll.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Logger.h /usr/include/sys/epoll.h \
  /usr/include/bits/epoll.h

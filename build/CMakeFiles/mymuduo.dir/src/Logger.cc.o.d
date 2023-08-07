@@ -1,6 +1,6 @@
 CMakeFiles/mymuduo.dir/src/Logger.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Logger.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Logger.h /usr/include/c++/10/string \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Logger.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Logger.h /usr/include/c++/10/string \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -102,10 +102,10 @@ CMakeFiles/mymuduo.dir/src/Logger.cc.o: \
  /usr/include/bits/types/error_t.h /usr/include/c++/10/bits/charconv.h \
  /usr/include/c++/10/bits/functional_hash.h \
  /usr/include/c++/10/bits/basic_string.tcc \
- /c++/MyMuduo/CKmuduo/src/noncopyable.h \
- /c++/MyMuduo/CKmuduo/src/Timestamp.h /usr/include/c++/10/iostream \
- /usr/include/c++/10/ostream /usr/include/c++/10/ios \
- /usr/include/c++/10/bits/ios_base.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/noncopyable.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Timestamp.h \
+ /usr/include/c++/10/iostream /usr/include/c++/10/ostream \
+ /usr/include/c++/10/ios /usr/include/c++/10/bits/ios_base.h \
  /usr/include/c++/10/bits/locale_classes.h \
  /usr/include/c++/10/bits/locale_classes.tcc \
  /usr/include/c++/10/system_error \

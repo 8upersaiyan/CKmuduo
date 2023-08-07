@@ -1,7 +1,8 @@
 CMakeFiles/mymuduo.dir/src/Socket.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Socket.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Socket.h /c++/MyMuduo/CKmuduo/src/noncopyable.h \
- /c++/MyMuduo/CKmuduo/src/Logger.h /usr/include/c++/10/string \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Socket.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Socket.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/noncopyable.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Logger.h /usr/include/c++/10/string \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -103,7 +104,7 @@ CMakeFiles/mymuduo.dir/src/Socket.cc.o: \
  /usr/include/bits/types/error_t.h /usr/include/c++/10/bits/charconv.h \
  /usr/include/c++/10/bits/functional_hash.h \
  /usr/include/c++/10/bits/basic_string.tcc \
- /c++/MyMuduo/CKmuduo/src/InetAddress.h /usr/include/arpa/inet.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/InetAddress.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/sys/socket.h \
  /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
  /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \

@@ -1,6 +1,7 @@
 CMakeFiles/mymuduo.dir/src/Timestamp.cc.o: \
- /c++/MyMuduo/CKmuduo/src/Timestamp.cc /usr/include/stdc-predef.h \
- /c++/MyMuduo/CKmuduo/src/Timestamp.h /usr/include/c++/10/iostream \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Timestamp.cc /usr/include/stdc-predef.h \
+ /c++/MyMuduo/CKmuduo/CKmuduo/src/Timestamp.h \
+ /usr/include/c++/10/iostream \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
