@@ -1,20 +1,24 @@
 ﻿# CKmuduo
-基于 Reactor 反应堆模型的多线程 C++网络库
-# 平台工具 
-vs code 远程连接linux ubuntu20.04.5开发 + CMake构建
+本项目是参考 muduo 实现的基于 Reactor 模型的多线程网络库。使用 C++ 11 编写去除 muduo 对 boost 的依赖，内部实现了一个小型的 HTTP 服务器。
+# 开发环境
+* 操作系统：`Ubuntu 18.04.6 LTS`
+* 编译器：`VsCode`
+* 编译环境：`g++ (GCC) 10.2.1`
+* 版本控制：`git`
+* 项目构建：`cmake version 3.20.2`
 # 项目描述
-在 Linux 环境下使用 C++11 + Reactor+one loop per thread 思想开发网络库模型。
-# 主要工作
-1. 学习陈硕老师的 C++ muduo 网络库优秀的代码设计及编程方法；
-2. 重写 muduo 核心组件，去依赖 boost，用 C++11 重构代码，可移植性好；
-3. 利用 Reactor 反应堆模型搭建多线程 C++11 网络库；
-4. 基于事件驱动和事件回调的 epoll+线程池面向对象编程；
-5. 实现 Channel、Poller、EventLoop、TcpServer、Buffer、TcpConnection 等重要部分。
+* 学习陈硕老师的 C++ muduo 网络库优秀的代码设计及编程方法。
+* 去掉了Muduo库中的Boost依赖，完全使用C++标准，如使用std::function<>。
+* 底层使用 Epoll + LT 模式的 I/O 复用模型，并且结合非阻塞 I/O 实现主从 Reactor 模型。
+* 采用「one loop per thread」线程模型，并向上封装线程池避免线程创建和销毁带来的性能开销。
+* 实现 Channel、Poller、EventLoop、TcpServer、Buffer、TcpConnection 等重要部分。
+* 示例中实现了http服务器与echo服务器，使用了Apache Benchmark做了压测。
 # 具体实现细节博客
 https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
 # 使用方法
-执行autobuild.sh脚本执行CMakeList生成libmymuduo.so库
+执行`autobuild.sh`脚本执行`CMakeList`生成`libmymuduo.so`库
 并将库文件拷贝到 /usr/lib路径下
+
     #!/bin/bash
     set -e
     # 如果没有build目录，创建该目录
@@ -25,7 +29,6 @@ https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
     cd `pwd`/build &&
         cmake .. &&
         make
-    
     # 回到项目根目录
     cd ..
     # 把头文件拷贝到 /usr/include/mymuduo  so库拷贝到 /usr/lib    PATH
@@ -43,6 +46,11 @@ https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
 # 使用运行案例
 ## EchoServer 回响服务器
 这里以一个简单的回声服务器作为案例，EchoServer默认监听端口为8080。
+
+    cd ./example
+    ./EchoServer
+
+执行情况：
 ![image](https://github.com/8upersaiyan/CKmuduo/assets/102213169/4fa91142-34a6-4ad7-a546-3eebb984db75)
 
 
