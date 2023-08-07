@@ -14,40 +14,40 @@ vs code 远程连接linux ubuntu20.04.5开发 + CMake构建
 https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
 # 使用方法
 编写shell脚本：
-#!/bin/bash
-
-set -e
-
-#如果没有build目录，创建该目录
-if [ ! -d `pwd`/build ]; then
-    mkdir `pwd`/build
-fi
-
-rm -rf `pwd`/build/*
-
-cd `pwd`/build &&
-    cmake .. &&
-    make
-
-#回到项目根目录
-cd ..
-
-#把头文件拷贝到 /usr/include/mymuduo  so库拷贝到 /usr/lib    PATH
-if [ ! -d /usr/include/mymuduo ]; then 
-    mkdir /usr/include/mymuduo
-fi
-
-#拷贝头文件 
-for header in `ls *.h`
-do
-    cp $header /usr/include/mymuduo
-done
-
-#拷贝库文件
-cp `pwd`/lib/libmymuduo.so /usr/lib
-
-ldconfig
- 
-运行shell脚本：
-chmod +x autobuild.sh //赋予可执行权限
-./autobuild.sh //执行
+    #!/bin/bash
+    
+    set -e
+    
+    #如果没有build目录，创建该目录
+    if [ ! -d `pwd`/build ]; then
+        mkdir `pwd`/build
+    fi
+    
+    rm -rf `pwd`/build/*
+    
+    cd `pwd`/build &&
+        cmake .. &&
+        make
+    
+    #回到项目根目录
+    cd ..
+    
+    #把头文件拷贝到 /usr/include/mymuduo  so库拷贝到 /usr/lib    PATH
+    if [ ! -d /usr/include/mymuduo ]; then 
+        mkdir /usr/include/mymuduo
+    fi
+    
+    #拷贝头文件 
+    for header in `ls *.h`
+    do
+        cp $header /usr/include/mymuduo
+    done
+    
+    #拷贝库文件
+    cp `pwd`/lib/libmymuduo.so /usr/lib
+    
+    ldconfig
+     
+    运行shell脚本：
+    chmod +x autobuild.sh //赋予可执行权限
+    ./autobuild.sh //执行
