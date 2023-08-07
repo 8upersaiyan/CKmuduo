@@ -48,6 +48,12 @@ public:
 
     //开启服务器监听 实际上就是开启mainloop的acceptor的listen 
     void start();
+
+    EventLoop* getLoop() const { return loop_; }
+
+    const std::string name() { return name_; }
+
+    const std::string ipPort() { return ipPort_; }
 private:
 	//私有的内部使用的接口 
     void newConnection(int sockfd, const InetAddress &peerAddr);//有新连接来了 

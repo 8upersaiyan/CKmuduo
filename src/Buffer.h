@@ -41,6 +41,11 @@ public:
         return begin() + readerIndex_;
     }
 
+    void retrieveUntil(const char *end)
+    {
+        retrieve(end - peek());
+    }
+    
     //在onMessage的时候 把数据从Buffer转成string类型 
     void retrieve(size_t len)
     {
@@ -83,12 +88,24 @@ public:
         }
     }
 
+    // string::data() 转换成字符数组，但是没有 '\0'
+    void append(const std::string &str)
+    {
+        append(str.data(),str.size());
+    }
     //把[data, data+len]内存上的数据，添加到writable缓冲区当中
     void append(const char *data, size_t len)
     {
         ensureWriteableBytes(len);
         std::copy(data, data+len, beginWrite());//data复制到目标位置beginWrite()
         writerIndex_ += len;
+    }
+
+    const char* findCRLF() const
+    {
+        // FIXME: replace with memmem()?
+        const char* crlf = std::search(peek(), beginWrite(), kCRLF, kCRLF+2);
+        return crlf == beginWrite() ? NULL : crlf;
     }
 
     char* beginWrite()//返回写入起始地址
@@ -137,5 +154,6 @@ private:
     std::vector<char> buffer_;//vector数组 扩容方便 
     size_t readerIndex_;//可读数据的下标位置 
     size_t writerIndex_;//写数据的下标位置 
-};
+    static const char kCRLF[];
+};  
 
