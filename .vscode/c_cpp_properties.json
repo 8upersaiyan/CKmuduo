@@ -4,7 +4,11 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/src/Buffer"
+                "${workspaceFolder}/src/Buffer",
+                "${workspaceFolder}/src/Net",
+                "${workspaceFolder}/src/Logger",
+                "${workspaceFolder}/src/base",
+                "${workspaceFolder}/src/Poller"
             ],
             "defines": [],
             "cStandard": "c17",
