@@ -23,7 +23,6 @@ public:
 
 private:
     void setDefaultName(); //给线程设置默认的名字
-
     bool started_;  //启动当前线程
     bool joined_; // 当前线程等待其他线完了再运行下去
     std::shared_ptr<std::thread> thread_; // 自己掌控线程对象产生的时机，这里直接调用thread thread_它会立即创建一个新线程
