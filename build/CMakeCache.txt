@@ -212,6 +212,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Value Computed by CMake
 mymuduo_BINARY_DIR:STATIC=/c++/MyMuduo/CKmuduo/CKmuduo/build
 
+//Dependencies for the target
+mymuduo_LIB_DEPENDS:STATIC=general;pthread;
+
 //Value Computed by CMake
 mymuduo_SOURCE_DIR:STATIC=/c++/MyMuduo/CKmuduo/CKmuduo
 

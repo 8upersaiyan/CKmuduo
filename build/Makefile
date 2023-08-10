@@ -129,413 +129,413 @@ mymuduo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/build
 .PHONY : mymuduo/fast
 
-src/Acceptor.o: src/Acceptor.cc.o
-.PHONY : src/Acceptor.o
+src/Buffer/Buffer.o: src/Buffer/Buffer.cc.o
+.PHONY : src/Buffer/Buffer.o
 
 # target to build an object file
-src/Acceptor.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Acceptor.cc.o
-.PHONY : src/Acceptor.cc.o
+src/Buffer/Buffer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Buffer/Buffer.cc.o
+.PHONY : src/Buffer/Buffer.cc.o
 
-src/Acceptor.i: src/Acceptor.cc.i
-.PHONY : src/Acceptor.i
+src/Buffer/Buffer.i: src/Buffer/Buffer.cc.i
+.PHONY : src/Buffer/Buffer.i
 
 # target to preprocess a source file
-src/Acceptor.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Acceptor.cc.i
-.PHONY : src/Acceptor.cc.i
+src/Buffer/Buffer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Buffer/Buffer.cc.i
+.PHONY : src/Buffer/Buffer.cc.i
 
-src/Acceptor.s: src/Acceptor.cc.s
-.PHONY : src/Acceptor.s
+src/Buffer/Buffer.s: src/Buffer/Buffer.cc.s
+.PHONY : src/Buffer/Buffer.s
 
 # target to generate assembly for a file
-src/Acceptor.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Acceptor.cc.s
-.PHONY : src/Acceptor.cc.s
+src/Buffer/Buffer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Buffer/Buffer.cc.s
+.PHONY : src/Buffer/Buffer.cc.s
 
-src/Buffer.o: src/Buffer.cc.o
-.PHONY : src/Buffer.o
+src/Logger/Logger.o: src/Logger/Logger.cc.o
+.PHONY : src/Logger/Logger.o
 
 # target to build an object file
-src/Buffer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Buffer.cc.o
-.PHONY : src/Buffer.cc.o
+src/Logger/Logger.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Logger/Logger.cc.o
+.PHONY : src/Logger/Logger.cc.o
 
-src/Buffer.i: src/Buffer.cc.i
-.PHONY : src/Buffer.i
+src/Logger/Logger.i: src/Logger/Logger.cc.i
+.PHONY : src/Logger/Logger.i
 
 # target to preprocess a source file
-src/Buffer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Buffer.cc.i
-.PHONY : src/Buffer.cc.i
+src/Logger/Logger.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Logger/Logger.cc.i
+.PHONY : src/Logger/Logger.cc.i
 
-src/Buffer.s: src/Buffer.cc.s
-.PHONY : src/Buffer.s
+src/Logger/Logger.s: src/Logger/Logger.cc.s
+.PHONY : src/Logger/Logger.s
 
 # target to generate assembly for a file
-src/Buffer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Buffer.cc.s
-.PHONY : src/Buffer.cc.s
+src/Logger/Logger.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Logger/Logger.cc.s
+.PHONY : src/Logger/Logger.cc.s
 
-src/Channel.o: src/Channel.cc.o
-.PHONY : src/Channel.o
+src/Net/Acceptor.o: src/Net/Acceptor.cc.o
+.PHONY : src/Net/Acceptor.o
 
 # target to build an object file
-src/Channel.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cc.o
-.PHONY : src/Channel.cc.o
+src/Net/Acceptor.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Acceptor.cc.o
+.PHONY : src/Net/Acceptor.cc.o
 
-src/Channel.i: src/Channel.cc.i
-.PHONY : src/Channel.i
+src/Net/Acceptor.i: src/Net/Acceptor.cc.i
+.PHONY : src/Net/Acceptor.i
 
 # target to preprocess a source file
-src/Channel.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cc.i
-.PHONY : src/Channel.cc.i
+src/Net/Acceptor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Acceptor.cc.i
+.PHONY : src/Net/Acceptor.cc.i
 
-src/Channel.s: src/Channel.cc.s
-.PHONY : src/Channel.s
+src/Net/Acceptor.s: src/Net/Acceptor.cc.s
+.PHONY : src/Net/Acceptor.s
 
 # target to generate assembly for a file
-src/Channel.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cc.s
-.PHONY : src/Channel.cc.s
+src/Net/Acceptor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Acceptor.cc.s
+.PHONY : src/Net/Acceptor.cc.s
 
-src/CurrentThread.o: src/CurrentThread.cc.o
-.PHONY : src/CurrentThread.o
+src/Net/Channel.o: src/Net/Channel.cc.o
+.PHONY : src/Net/Channel.o
 
 # target to build an object file
-src/CurrentThread.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/CurrentThread.cc.o
-.PHONY : src/CurrentThread.cc.o
+src/Net/Channel.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Channel.cc.o
+.PHONY : src/Net/Channel.cc.o
 
-src/CurrentThread.i: src/CurrentThread.cc.i
-.PHONY : src/CurrentThread.i
+src/Net/Channel.i: src/Net/Channel.cc.i
+.PHONY : src/Net/Channel.i
 
 # target to preprocess a source file
-src/CurrentThread.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/CurrentThread.cc.i
-.PHONY : src/CurrentThread.cc.i
+src/Net/Channel.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Channel.cc.i
+.PHONY : src/Net/Channel.cc.i
 
-src/CurrentThread.s: src/CurrentThread.cc.s
-.PHONY : src/CurrentThread.s
+src/Net/Channel.s: src/Net/Channel.cc.s
+.PHONY : src/Net/Channel.s
 
 # target to generate assembly for a file
-src/CurrentThread.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/CurrentThread.cc.s
-.PHONY : src/CurrentThread.cc.s
+src/Net/Channel.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Channel.cc.s
+.PHONY : src/Net/Channel.cc.s
 
-src/DefaultPoller.o: src/DefaultPoller.cc.o
-.PHONY : src/DefaultPoller.o
+src/Net/EventLoop.o: src/Net/EventLoop.cc.o
+.PHONY : src/Net/EventLoop.o
 
 # target to build an object file
-src/DefaultPoller.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/DefaultPoller.cc.o
-.PHONY : src/DefaultPoller.cc.o
+src/Net/EventLoop.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoop.cc.o
+.PHONY : src/Net/EventLoop.cc.o
 
-src/DefaultPoller.i: src/DefaultPoller.cc.i
-.PHONY : src/DefaultPoller.i
+src/Net/EventLoop.i: src/Net/EventLoop.cc.i
+.PHONY : src/Net/EventLoop.i
 
 # target to preprocess a source file
-src/DefaultPoller.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/DefaultPoller.cc.i
-.PHONY : src/DefaultPoller.cc.i
+src/Net/EventLoop.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoop.cc.i
+.PHONY : src/Net/EventLoop.cc.i
 
-src/DefaultPoller.s: src/DefaultPoller.cc.s
-.PHONY : src/DefaultPoller.s
+src/Net/EventLoop.s: src/Net/EventLoop.cc.s
+.PHONY : src/Net/EventLoop.s
 
 # target to generate assembly for a file
-src/DefaultPoller.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/DefaultPoller.cc.s
-.PHONY : src/DefaultPoller.cc.s
+src/Net/EventLoop.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoop.cc.s
+.PHONY : src/Net/EventLoop.cc.s
 
-src/EPollPoller.o: src/EPollPoller.cc.o
-.PHONY : src/EPollPoller.o
+src/Net/EventLoopThread.o: src/Net/EventLoopThread.cc.o
+.PHONY : src/Net/EventLoopThread.o
 
 # target to build an object file
-src/EPollPoller.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EPollPoller.cc.o
-.PHONY : src/EPollPoller.cc.o
+src/Net/EventLoopThread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoopThread.cc.o
+.PHONY : src/Net/EventLoopThread.cc.o
 
-src/EPollPoller.i: src/EPollPoller.cc.i
-.PHONY : src/EPollPoller.i
+src/Net/EventLoopThread.i: src/Net/EventLoopThread.cc.i
+.PHONY : src/Net/EventLoopThread.i
 
 # target to preprocess a source file
-src/EPollPoller.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EPollPoller.cc.i
-.PHONY : src/EPollPoller.cc.i
+src/Net/EventLoopThread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoopThread.cc.i
+.PHONY : src/Net/EventLoopThread.cc.i
 
-src/EPollPoller.s: src/EPollPoller.cc.s
-.PHONY : src/EPollPoller.s
+src/Net/EventLoopThread.s: src/Net/EventLoopThread.cc.s
+.PHONY : src/Net/EventLoopThread.s
 
 # target to generate assembly for a file
-src/EPollPoller.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EPollPoller.cc.s
-.PHONY : src/EPollPoller.cc.s
+src/Net/EventLoopThread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoopThread.cc.s
+.PHONY : src/Net/EventLoopThread.cc.s
 
-src/EventLoop.o: src/EventLoop.cc.o
-.PHONY : src/EventLoop.o
+src/Net/EventLoopThreadPool.o: src/Net/EventLoopThreadPool.cc.o
+.PHONY : src/Net/EventLoopThreadPool.o
 
 # target to build an object file
-src/EventLoop.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoop.cc.o
-.PHONY : src/EventLoop.cc.o
+src/Net/EventLoopThreadPool.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoopThreadPool.cc.o
+.PHONY : src/Net/EventLoopThreadPool.cc.o
 
-src/EventLoop.i: src/EventLoop.cc.i
-.PHONY : src/EventLoop.i
+src/Net/EventLoopThreadPool.i: src/Net/EventLoopThreadPool.cc.i
+.PHONY : src/Net/EventLoopThreadPool.i
 
 # target to preprocess a source file
-src/EventLoop.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoop.cc.i
-.PHONY : src/EventLoop.cc.i
+src/Net/EventLoopThreadPool.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoopThreadPool.cc.i
+.PHONY : src/Net/EventLoopThreadPool.cc.i
 
-src/EventLoop.s: src/EventLoop.cc.s
-.PHONY : src/EventLoop.s
+src/Net/EventLoopThreadPool.s: src/Net/EventLoopThreadPool.cc.s
+.PHONY : src/Net/EventLoopThreadPool.s
 
 # target to generate assembly for a file
-src/EventLoop.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoop.cc.s
-.PHONY : src/EventLoop.cc.s
+src/Net/EventLoopThreadPool.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/EventLoopThreadPool.cc.s
+.PHONY : src/Net/EventLoopThreadPool.cc.s
 
-src/EventLoopThread.o: src/EventLoopThread.cc.o
-.PHONY : src/EventLoopThread.o
+src/Net/InetAddress.o: src/Net/InetAddress.cc.o
+.PHONY : src/Net/InetAddress.o
 
 # target to build an object file
-src/EventLoopThread.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoopThread.cc.o
-.PHONY : src/EventLoopThread.cc.o
+src/Net/InetAddress.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/InetAddress.cc.o
+.PHONY : src/Net/InetAddress.cc.o
 
-src/EventLoopThread.i: src/EventLoopThread.cc.i
-.PHONY : src/EventLoopThread.i
+src/Net/InetAddress.i: src/Net/InetAddress.cc.i
+.PHONY : src/Net/InetAddress.i
 
 # target to preprocess a source file
-src/EventLoopThread.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoopThread.cc.i
-.PHONY : src/EventLoopThread.cc.i
+src/Net/InetAddress.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/InetAddress.cc.i
+.PHONY : src/Net/InetAddress.cc.i
 
-src/EventLoopThread.s: src/EventLoopThread.cc.s
-.PHONY : src/EventLoopThread.s
+src/Net/InetAddress.s: src/Net/InetAddress.cc.s
+.PHONY : src/Net/InetAddress.s
 
 # target to generate assembly for a file
-src/EventLoopThread.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoopThread.cc.s
-.PHONY : src/EventLoopThread.cc.s
+src/Net/InetAddress.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/InetAddress.cc.s
+.PHONY : src/Net/InetAddress.cc.s
 
-src/EventLoopThreadPool.o: src/EventLoopThreadPool.cc.o
-.PHONY : src/EventLoopThreadPool.o
+src/Net/Socket.o: src/Net/Socket.cc.o
+.PHONY : src/Net/Socket.o
 
 # target to build an object file
-src/EventLoopThreadPool.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoopThreadPool.cc.o
-.PHONY : src/EventLoopThreadPool.cc.o
+src/Net/Socket.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Socket.cc.o
+.PHONY : src/Net/Socket.cc.o
 
-src/EventLoopThreadPool.i: src/EventLoopThreadPool.cc.i
-.PHONY : src/EventLoopThreadPool.i
+src/Net/Socket.i: src/Net/Socket.cc.i
+.PHONY : src/Net/Socket.i
 
 # target to preprocess a source file
-src/EventLoopThreadPool.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoopThreadPool.cc.i
-.PHONY : src/EventLoopThreadPool.cc.i
+src/Net/Socket.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Socket.cc.i
+.PHONY : src/Net/Socket.cc.i
 
-src/EventLoopThreadPool.s: src/EventLoopThreadPool.cc.s
-.PHONY : src/EventLoopThreadPool.s
+src/Net/Socket.s: src/Net/Socket.cc.s
+.PHONY : src/Net/Socket.s
 
 # target to generate assembly for a file
-src/EventLoopThreadPool.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EventLoopThreadPool.cc.s
-.PHONY : src/EventLoopThreadPool.cc.s
+src/Net/Socket.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/Socket.cc.s
+.PHONY : src/Net/Socket.cc.s
 
-src/InetAddress.o: src/InetAddress.cc.o
-.PHONY : src/InetAddress.o
+src/Net/TcpConnection.o: src/Net/TcpConnection.cc.o
+.PHONY : src/Net/TcpConnection.o
 
 # target to build an object file
-src/InetAddress.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/InetAddress.cc.o
-.PHONY : src/InetAddress.cc.o
+src/Net/TcpConnection.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/TcpConnection.cc.o
+.PHONY : src/Net/TcpConnection.cc.o
 
-src/InetAddress.i: src/InetAddress.cc.i
-.PHONY : src/InetAddress.i
+src/Net/TcpConnection.i: src/Net/TcpConnection.cc.i
+.PHONY : src/Net/TcpConnection.i
 
 # target to preprocess a source file
-src/InetAddress.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/InetAddress.cc.i
-.PHONY : src/InetAddress.cc.i
+src/Net/TcpConnection.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/TcpConnection.cc.i
+.PHONY : src/Net/TcpConnection.cc.i
 
-src/InetAddress.s: src/InetAddress.cc.s
-.PHONY : src/InetAddress.s
+src/Net/TcpConnection.s: src/Net/TcpConnection.cc.s
+.PHONY : src/Net/TcpConnection.s
 
 # target to generate assembly for a file
-src/InetAddress.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/InetAddress.cc.s
-.PHONY : src/InetAddress.cc.s
+src/Net/TcpConnection.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/TcpConnection.cc.s
+.PHONY : src/Net/TcpConnection.cc.s
 
-src/Logger.o: src/Logger.cc.o
-.PHONY : src/Logger.o
+src/Net/TcpServer.o: src/Net/TcpServer.cc.o
+.PHONY : src/Net/TcpServer.o
 
 # target to build an object file
-src/Logger.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Logger.cc.o
-.PHONY : src/Logger.cc.o
+src/Net/TcpServer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/TcpServer.cc.o
+.PHONY : src/Net/TcpServer.cc.o
 
-src/Logger.i: src/Logger.cc.i
-.PHONY : src/Logger.i
+src/Net/TcpServer.i: src/Net/TcpServer.cc.i
+.PHONY : src/Net/TcpServer.i
 
 # target to preprocess a source file
-src/Logger.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Logger.cc.i
-.PHONY : src/Logger.cc.i
+src/Net/TcpServer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/TcpServer.cc.i
+.PHONY : src/Net/TcpServer.cc.i
 
-src/Logger.s: src/Logger.cc.s
-.PHONY : src/Logger.s
+src/Net/TcpServer.s: src/Net/TcpServer.cc.s
+.PHONY : src/Net/TcpServer.s
 
 # target to generate assembly for a file
-src/Logger.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Logger.cc.s
-.PHONY : src/Logger.cc.s
+src/Net/TcpServer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Net/TcpServer.cc.s
+.PHONY : src/Net/TcpServer.cc.s
 
-src/Poller.o: src/Poller.cc.o
-.PHONY : src/Poller.o
+src/Poller/DefaultPoller.o: src/Poller/DefaultPoller.cc.o
+.PHONY : src/Poller/DefaultPoller.o
 
 # target to build an object file
-src/Poller.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller.cc.o
-.PHONY : src/Poller.cc.o
+src/Poller/DefaultPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/DefaultPoller.cc.o
+.PHONY : src/Poller/DefaultPoller.cc.o
 
-src/Poller.i: src/Poller.cc.i
-.PHONY : src/Poller.i
+src/Poller/DefaultPoller.i: src/Poller/DefaultPoller.cc.i
+.PHONY : src/Poller/DefaultPoller.i
 
 # target to preprocess a source file
-src/Poller.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller.cc.i
-.PHONY : src/Poller.cc.i
+src/Poller/DefaultPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/DefaultPoller.cc.i
+.PHONY : src/Poller/DefaultPoller.cc.i
 
-src/Poller.s: src/Poller.cc.s
-.PHONY : src/Poller.s
+src/Poller/DefaultPoller.s: src/Poller/DefaultPoller.cc.s
+.PHONY : src/Poller/DefaultPoller.s
 
 # target to generate assembly for a file
-src/Poller.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller.cc.s
-.PHONY : src/Poller.cc.s
+src/Poller/DefaultPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/DefaultPoller.cc.s
+.PHONY : src/Poller/DefaultPoller.cc.s
 
-src/Socket.o: src/Socket.cc.o
-.PHONY : src/Socket.o
+src/Poller/EPollPoller.o: src/Poller/EPollPoller.cc.o
+.PHONY : src/Poller/EPollPoller.o
 
 # target to build an object file
-src/Socket.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Socket.cc.o
-.PHONY : src/Socket.cc.o
+src/Poller/EPollPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/EPollPoller.cc.o
+.PHONY : src/Poller/EPollPoller.cc.o
 
-src/Socket.i: src/Socket.cc.i
-.PHONY : src/Socket.i
+src/Poller/EPollPoller.i: src/Poller/EPollPoller.cc.i
+.PHONY : src/Poller/EPollPoller.i
 
 # target to preprocess a source file
-src/Socket.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Socket.cc.i
-.PHONY : src/Socket.cc.i
+src/Poller/EPollPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/EPollPoller.cc.i
+.PHONY : src/Poller/EPollPoller.cc.i
 
-src/Socket.s: src/Socket.cc.s
-.PHONY : src/Socket.s
+src/Poller/EPollPoller.s: src/Poller/EPollPoller.cc.s
+.PHONY : src/Poller/EPollPoller.s
 
 # target to generate assembly for a file
-src/Socket.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Socket.cc.s
-.PHONY : src/Socket.cc.s
+src/Poller/EPollPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/EPollPoller.cc.s
+.PHONY : src/Poller/EPollPoller.cc.s
 
-src/TcpConnection.o: src/TcpConnection.cc.o
-.PHONY : src/TcpConnection.o
+src/Poller/Poller.o: src/Poller/Poller.cc.o
+.PHONY : src/Poller/Poller.o
 
 # target to build an object file
-src/TcpConnection.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/TcpConnection.cc.o
-.PHONY : src/TcpConnection.cc.o
+src/Poller/Poller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/Poller.cc.o
+.PHONY : src/Poller/Poller.cc.o
 
-src/TcpConnection.i: src/TcpConnection.cc.i
-.PHONY : src/TcpConnection.i
+src/Poller/Poller.i: src/Poller/Poller.cc.i
+.PHONY : src/Poller/Poller.i
 
 # target to preprocess a source file
-src/TcpConnection.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/TcpConnection.cc.i
-.PHONY : src/TcpConnection.cc.i
+src/Poller/Poller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/Poller.cc.i
+.PHONY : src/Poller/Poller.cc.i
 
-src/TcpConnection.s: src/TcpConnection.cc.s
-.PHONY : src/TcpConnection.s
+src/Poller/Poller.s: src/Poller/Poller.cc.s
+.PHONY : src/Poller/Poller.s
 
 # target to generate assembly for a file
-src/TcpConnection.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/TcpConnection.cc.s
-.PHONY : src/TcpConnection.cc.s
+src/Poller/Poller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller/Poller.cc.s
+.PHONY : src/Poller/Poller.cc.s
 
-src/TcpServer.o: src/TcpServer.cc.o
-.PHONY : src/TcpServer.o
+src/base/CurrentThread.o: src/base/CurrentThread.cc.o
+.PHONY : src/base/CurrentThread.o
 
 # target to build an object file
-src/TcpServer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/TcpServer.cc.o
-.PHONY : src/TcpServer.cc.o
+src/base/CurrentThread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/CurrentThread.cc.o
+.PHONY : src/base/CurrentThread.cc.o
 
-src/TcpServer.i: src/TcpServer.cc.i
-.PHONY : src/TcpServer.i
+src/base/CurrentThread.i: src/base/CurrentThread.cc.i
+.PHONY : src/base/CurrentThread.i
 
 # target to preprocess a source file
-src/TcpServer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/TcpServer.cc.i
-.PHONY : src/TcpServer.cc.i
+src/base/CurrentThread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/CurrentThread.cc.i
+.PHONY : src/base/CurrentThread.cc.i
 
-src/TcpServer.s: src/TcpServer.cc.s
-.PHONY : src/TcpServer.s
+src/base/CurrentThread.s: src/base/CurrentThread.cc.s
+.PHONY : src/base/CurrentThread.s
 
 # target to generate assembly for a file
-src/TcpServer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/TcpServer.cc.s
-.PHONY : src/TcpServer.cc.s
+src/base/CurrentThread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/CurrentThread.cc.s
+.PHONY : src/base/CurrentThread.cc.s
 
-src/Thread.o: src/Thread.cc.o
-.PHONY : src/Thread.o
+src/base/Thread.o: src/base/Thread.cc.o
+.PHONY : src/base/Thread.o
 
 # target to build an object file
-src/Thread.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Thread.cc.o
-.PHONY : src/Thread.cc.o
+src/base/Thread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Thread.cc.o
+.PHONY : src/base/Thread.cc.o
 
-src/Thread.i: src/Thread.cc.i
-.PHONY : src/Thread.i
+src/base/Thread.i: src/base/Thread.cc.i
+.PHONY : src/base/Thread.i
 
 # target to preprocess a source file
-src/Thread.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Thread.cc.i
-.PHONY : src/Thread.cc.i
+src/base/Thread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Thread.cc.i
+.PHONY : src/base/Thread.cc.i
 
-src/Thread.s: src/Thread.cc.s
-.PHONY : src/Thread.s
+src/base/Thread.s: src/base/Thread.cc.s
+.PHONY : src/base/Thread.s
 
 # target to generate assembly for a file
-src/Thread.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Thread.cc.s
-.PHONY : src/Thread.cc.s
+src/base/Thread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Thread.cc.s
+.PHONY : src/base/Thread.cc.s
 
-src/Timestamp.o: src/Timestamp.cc.o
-.PHONY : src/Timestamp.o
+src/base/Timestamp.o: src/base/Timestamp.cc.o
+.PHONY : src/base/Timestamp.o
 
 # target to build an object file
-src/Timestamp.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Timestamp.cc.o
-.PHONY : src/Timestamp.cc.o
+src/base/Timestamp.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.o
+.PHONY : src/base/Timestamp.cc.o
 
-src/Timestamp.i: src/Timestamp.cc.i
-.PHONY : src/Timestamp.i
+src/base/Timestamp.i: src/base/Timestamp.cc.i
+.PHONY : src/base/Timestamp.i
 
 # target to preprocess a source file
-src/Timestamp.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Timestamp.cc.i
-.PHONY : src/Timestamp.cc.i
+src/base/Timestamp.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.i
+.PHONY : src/base/Timestamp.cc.i
 
-src/Timestamp.s: src/Timestamp.cc.s
-.PHONY : src/Timestamp.s
+src/base/Timestamp.s: src/base/Timestamp.cc.s
+.PHONY : src/base/Timestamp.s
 
 # target to generate assembly for a file
-src/Timestamp.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Timestamp.cc.s
-.PHONY : src/Timestamp.cc.s
+src/base/Timestamp.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.s
+.PHONY : src/base/Timestamp.cc.s
 
 # Help Target
 help:
@@ -546,57 +546,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mymuduo"
-	@echo "... src/Acceptor.o"
-	@echo "... src/Acceptor.i"
-	@echo "... src/Acceptor.s"
-	@echo "... src/Buffer.o"
-	@echo "... src/Buffer.i"
-	@echo "... src/Buffer.s"
-	@echo "... src/Channel.o"
-	@echo "... src/Channel.i"
-	@echo "... src/Channel.s"
-	@echo "... src/CurrentThread.o"
-	@echo "... src/CurrentThread.i"
-	@echo "... src/CurrentThread.s"
-	@echo "... src/DefaultPoller.o"
-	@echo "... src/DefaultPoller.i"
-	@echo "... src/DefaultPoller.s"
-	@echo "... src/EPollPoller.o"
-	@echo "... src/EPollPoller.i"
-	@echo "... src/EPollPoller.s"
-	@echo "... src/EventLoop.o"
-	@echo "... src/EventLoop.i"
-	@echo "... src/EventLoop.s"
-	@echo "... src/EventLoopThread.o"
-	@echo "... src/EventLoopThread.i"
-	@echo "... src/EventLoopThread.s"
-	@echo "... src/EventLoopThreadPool.o"
-	@echo "... src/EventLoopThreadPool.i"
-	@echo "... src/EventLoopThreadPool.s"
-	@echo "... src/InetAddress.o"
-	@echo "... src/InetAddress.i"
-	@echo "... src/InetAddress.s"
-	@echo "... src/Logger.o"
-	@echo "... src/Logger.i"
-	@echo "... src/Logger.s"
-	@echo "... src/Poller.o"
-	@echo "... src/Poller.i"
-	@echo "... src/Poller.s"
-	@echo "... src/Socket.o"
-	@echo "... src/Socket.i"
-	@echo "... src/Socket.s"
-	@echo "... src/TcpConnection.o"
-	@echo "... src/TcpConnection.i"
-	@echo "... src/TcpConnection.s"
-	@echo "... src/TcpServer.o"
-	@echo "... src/TcpServer.i"
-	@echo "... src/TcpServer.s"
-	@echo "... src/Thread.o"
-	@echo "... src/Thread.i"
-	@echo "... src/Thread.s"
-	@echo "... src/Timestamp.o"
-	@echo "... src/Timestamp.i"
-	@echo "... src/Timestamp.s"
+	@echo "... src/Buffer/Buffer.o"
+	@echo "... src/Buffer/Buffer.i"
+	@echo "... src/Buffer/Buffer.s"
+	@echo "... src/Logger/Logger.o"
+	@echo "... src/Logger/Logger.i"
+	@echo "... src/Logger/Logger.s"
+	@echo "... src/Net/Acceptor.o"
+	@echo "... src/Net/Acceptor.i"
+	@echo "... src/Net/Acceptor.s"
+	@echo "... src/Net/Channel.o"
+	@echo "... src/Net/Channel.i"
+	@echo "... src/Net/Channel.s"
+	@echo "... src/Net/EventLoop.o"
+	@echo "... src/Net/EventLoop.i"
+	@echo "... src/Net/EventLoop.s"
+	@echo "... src/Net/EventLoopThread.o"
+	@echo "... src/Net/EventLoopThread.i"
+	@echo "... src/Net/EventLoopThread.s"
+	@echo "... src/Net/EventLoopThreadPool.o"
+	@echo "... src/Net/EventLoopThreadPool.i"
+	@echo "... src/Net/EventLoopThreadPool.s"
+	@echo "... src/Net/InetAddress.o"
+	@echo "... src/Net/InetAddress.i"
+	@echo "... src/Net/InetAddress.s"
+	@echo "... src/Net/Socket.o"
+	@echo "... src/Net/Socket.i"
+	@echo "... src/Net/Socket.s"
+	@echo "... src/Net/TcpConnection.o"
+	@echo "... src/Net/TcpConnection.i"
+	@echo "... src/Net/TcpConnection.s"
+	@echo "... src/Net/TcpServer.o"
+	@echo "... src/Net/TcpServer.i"
+	@echo "... src/Net/TcpServer.s"
+	@echo "... src/Poller/DefaultPoller.o"
+	@echo "... src/Poller/DefaultPoller.i"
+	@echo "... src/Poller/DefaultPoller.s"
+	@echo "... src/Poller/EPollPoller.o"
+	@echo "... src/Poller/EPollPoller.i"
+	@echo "... src/Poller/EPollPoller.s"
+	@echo "... src/Poller/Poller.o"
+	@echo "... src/Poller/Poller.i"
+	@echo "... src/Poller/Poller.s"
+	@echo "... src/base/CurrentThread.o"
+	@echo "... src/base/CurrentThread.i"
+	@echo "... src/base/CurrentThread.s"
+	@echo "... src/base/Thread.o"
+	@echo "... src/base/Thread.i"
+	@echo "... src/base/Thread.s"
+	@echo "... src/base/Timestamp.o"
+	@echo "... src/base/Timestamp.i"
+	@echo "... src/base/Timestamp.s"
 .PHONY : help
 
 
