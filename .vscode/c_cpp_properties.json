@@ -10,7 +10,8 @@
                 "${workspaceFolder}/src/Logger/log",
                 "${workspaceFolder}/src/base",
                 "${workspaceFolder}/src/Poller",
-                "/usr/include/muduo/base"
+                "/usr/include/muduo/base",
+                "/usr/include/mysql"
             ],
             "defines": [],
             "cStandard": "c17",
