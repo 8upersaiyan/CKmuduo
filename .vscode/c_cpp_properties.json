@@ -7,8 +7,10 @@
                 "${workspaceFolder}/src/Buffer",
                 "${workspaceFolder}/src/Net",
                 "${workspaceFolder}/src/Logger",
+                "${workspaceFolder}/src/Logger/log",
                 "${workspaceFolder}/src/base",
-                "${workspaceFolder}/src/Poller"
+                "${workspaceFolder}/src/Poller",
+                "/usr/include/muduo/base"
             ],
             "defines": [],
             "cStandard": "c17",
