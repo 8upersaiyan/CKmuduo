@@ -10,6 +10,8 @@
                 "${workspaceFolder}/src/Logger/log",
                 "${workspaceFolder}/src/base",
                 "${workspaceFolder}/src/Poller",
+                "${workspaceFolder}/src/timer",
+                "${workspaceFolder}/src/mysql",
                 "/usr/include/muduo/base",
                 "/usr/include/mysql"
             ],
