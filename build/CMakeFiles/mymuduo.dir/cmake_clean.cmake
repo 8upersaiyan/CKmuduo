@@ -35,6 +35,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/src/base/Thread.cc.o.d"
   "CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.o"
   "CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.o.d"
+  "CMakeFiles/mymuduo.dir/src/mysql/CommonConnectionPool.cpp.o"
+  "CMakeFiles/mymuduo.dir/src/mysql/CommonConnectionPool.cpp.o.d"
+  "CMakeFiles/mymuduo.dir/src/mysql/Connection.cc.o"
+  "CMakeFiles/mymuduo.dir/src/mysql/Connection.cc.o.d"
+  "CMakeFiles/mymuduo.dir/src/timer/Timer.cc.o"
+  "CMakeFiles/mymuduo.dir/src/timer/Timer.cc.o.d"
+  "CMakeFiles/mymuduo.dir/src/timer/TimerQueue.cc.o"
+  "CMakeFiles/mymuduo.dir/src/timer/TimerQueue.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -14,6 +14,9 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/src/Buffer
     ${PROJECT_SOURCE_DIR}/src/Poller
     ${PROJECT_SOURCE_DIR}/src/Logger
+    ${PROJECT_SOURCE_DIR}/src/timer
+    ${PROJECT_SOURCE_DIR}/src/mysql
+    /usr/include/mysql
     )
 
 # 包含这些目录下的.cc文件
@@ -22,6 +25,9 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src/Net SRC_NET)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/Buffer SRC_BUFFER)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/Logger SRC_LOG)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/Poller SRC_POLLER)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/timer SRC_TIMER)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/mysql SRC_MYSQL)
+
 
 
 # 生成动态库 mymuduo
@@ -31,6 +37,8 @@ add_library(mymuduo SHARED
             ${SRC_POLLER}
             ${SRC_LOG}
             ${SRC_BUFFER}
+            ${SRC_TIMER}
+            ${SRC_MYSQL}
             )
 
 # 链接子目录中的库到 mymuduo

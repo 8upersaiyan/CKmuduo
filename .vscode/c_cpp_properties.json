@@ -12,6 +12,7 @@
                 "${workspaceFolder}/src/Poller",
                 "${workspaceFolder}/src/timer",
                 "${workspaceFolder}/src/mysql",
+                "${workspaceFolder}/src",
                 "/usr/include/muduo/base",
                 "/usr/include/mysql"
             ],

@@ -1,6 +1,6 @@
 ﻿#include "EventLoop.h"
 #include "Channel.h"
-#include "Logging.h"
+#include "Logger.h"
 #include "Timer.h"
 #include "TimerQueue.h"
 
@@ -18,7 +18,7 @@ int createTimerfd()
                                     TFD_NONBLOCK | TFD_CLOEXEC);
     if (timerfd < 0)
     {
-        LOG_ERROR << "Failed in timerfd_create";
+        LOG_ERROR("Failed in timerfd_create") ;
     }
     return timerfd;
 }
@@ -91,7 +91,7 @@ void TimerQueue::resetTimerfd(int timerfd_, Timestamp expiration)
     // 此函数会唤醒事件循环
     if (::timerfd_settime(timerfd_, 0, &newValue, &oldValue))
     {
-        LOG_ERROR << "timerfd_settime faield()";
+        LOG_ERROR("timerfd_settime faield()");
     }
 }
 
@@ -101,7 +101,7 @@ void ReadTimerFd(int timerfd)
     ssize_t readn = ::read(timerfd, &read_byte, sizeof(read_byte));
     
     if (readn != sizeof(read_byte)) {
-        LOG_ERROR << "TimerQueue::ReadTimerFd read_size < 0";
+        LOG_ERROR("TimerQueue::ReadTimerFd read_size < 0");
     }
 }
 

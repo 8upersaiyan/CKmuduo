@@ -32,13 +32,7 @@ public:
     bool repeat() const { return repeat_; }
 
     // 重启定时器(如果是非重复事件则到期时间置为0)
-    void restart(Timestamp now)
-    {
-        if(repeat_ > 0)
-        {
-            expiration_ = addTime(now,interval_);
-        }
-    }
+    void restart(Timestamp now);
 
 private:
     const TimerCallback callback_;  // 定时器回调函数

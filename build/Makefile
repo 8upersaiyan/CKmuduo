@@ -537,6 +537,102 @@ src/base/Timestamp.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.s
 .PHONY : src/base/Timestamp.cc.s
 
+src/mysql/CommonConnectionPool.o: src/mysql/CommonConnectionPool.cpp.o
+.PHONY : src/mysql/CommonConnectionPool.o
+
+# target to build an object file
+src/mysql/CommonConnectionPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/mysql/CommonConnectionPool.cpp.o
+.PHONY : src/mysql/CommonConnectionPool.cpp.o
+
+src/mysql/CommonConnectionPool.i: src/mysql/CommonConnectionPool.cpp.i
+.PHONY : src/mysql/CommonConnectionPool.i
+
+# target to preprocess a source file
+src/mysql/CommonConnectionPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/mysql/CommonConnectionPool.cpp.i
+.PHONY : src/mysql/CommonConnectionPool.cpp.i
+
+src/mysql/CommonConnectionPool.s: src/mysql/CommonConnectionPool.cpp.s
+.PHONY : src/mysql/CommonConnectionPool.s
+
+# target to generate assembly for a file
+src/mysql/CommonConnectionPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/mysql/CommonConnectionPool.cpp.s
+.PHONY : src/mysql/CommonConnectionPool.cpp.s
+
+src/mysql/Connection.o: src/mysql/Connection.cc.o
+.PHONY : src/mysql/Connection.o
+
+# target to build an object file
+src/mysql/Connection.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/mysql/Connection.cc.o
+.PHONY : src/mysql/Connection.cc.o
+
+src/mysql/Connection.i: src/mysql/Connection.cc.i
+.PHONY : src/mysql/Connection.i
+
+# target to preprocess a source file
+src/mysql/Connection.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/mysql/Connection.cc.i
+.PHONY : src/mysql/Connection.cc.i
+
+src/mysql/Connection.s: src/mysql/Connection.cc.s
+.PHONY : src/mysql/Connection.s
+
+# target to generate assembly for a file
+src/mysql/Connection.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/mysql/Connection.cc.s
+.PHONY : src/mysql/Connection.cc.s
+
+src/timer/Timer.o: src/timer/Timer.cc.o
+.PHONY : src/timer/Timer.o
+
+# target to build an object file
+src/timer/Timer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/timer/Timer.cc.o
+.PHONY : src/timer/Timer.cc.o
+
+src/timer/Timer.i: src/timer/Timer.cc.i
+.PHONY : src/timer/Timer.i
+
+# target to preprocess a source file
+src/timer/Timer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/timer/Timer.cc.i
+.PHONY : src/timer/Timer.cc.i
+
+src/timer/Timer.s: src/timer/Timer.cc.s
+.PHONY : src/timer/Timer.s
+
+# target to generate assembly for a file
+src/timer/Timer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/timer/Timer.cc.s
+.PHONY : src/timer/Timer.cc.s
+
+src/timer/TimerQueue.o: src/timer/TimerQueue.cc.o
+.PHONY : src/timer/TimerQueue.o
+
+# target to build an object file
+src/timer/TimerQueue.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/timer/TimerQueue.cc.o
+.PHONY : src/timer/TimerQueue.cc.o
+
+src/timer/TimerQueue.i: src/timer/TimerQueue.cc.i
+.PHONY : src/timer/TimerQueue.i
+
+# target to preprocess a source file
+src/timer/TimerQueue.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/timer/TimerQueue.cc.i
+.PHONY : src/timer/TimerQueue.cc.i
+
+src/timer/TimerQueue.s: src/timer/TimerQueue.cc.s
+.PHONY : src/timer/TimerQueue.s
+
+# target to generate assembly for a file
+src/timer/TimerQueue.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/timer/TimerQueue.cc.s
+.PHONY : src/timer/TimerQueue.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -597,6 +693,18 @@ help:
 	@echo "... src/base/Timestamp.o"
 	@echo "... src/base/Timestamp.i"
 	@echo "... src/base/Timestamp.s"
+	@echo "... src/mysql/CommonConnectionPool.o"
+	@echo "... src/mysql/CommonConnectionPool.i"
+	@echo "... src/mysql/CommonConnectionPool.s"
+	@echo "... src/mysql/Connection.o"
+	@echo "... src/mysql/Connection.i"
+	@echo "... src/mysql/Connection.s"
+	@echo "... src/timer/Timer.o"
+	@echo "... src/timer/Timer.i"
+	@echo "... src/timer/Timer.s"
+	@echo "... src/timer/TimerQueue.o"
+	@echo "... src/timer/TimerQueue.i"
+	@echo "... src/timer/TimerQueue.s"
 .PHONY : help
 
 
