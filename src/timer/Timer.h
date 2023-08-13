@@ -21,16 +21,24 @@ public:
     {
     }
 
+    // 调用此定时器的回调函数
     void run() const 
     { 
         callback_(); 
     }
 
+    // 返回此定时器超时时间
     Timestamp expiration() const  { return expiration_; }
     bool repeat() const { return repeat_; }
 
     // 重启定时器(如果是非重复事件则到期时间置为0)
-    void restart(Timestamp now);
+    void restart(Timestamp now)
+    {
+        if(repeat_ > 0)
+        {
+            expiration_ = addTime(now,interval_);
+        }
+    }
 
 private:
     const TimerCallback callback_;  // 定时器回调函数
