@@ -53,6 +53,38 @@ https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
 执行情况：
 ![image](https://github.com/8upersaiyan/CKmuduo/assets/102213169/4fa91142-34a6-4ad7-a546-3eebb984db75)
 
+## 简单Http 回响服务器
+可支持 GET 请求和静态资源的访问
+
+    cd example/test2-HttpServer/bin
+    ./HttpServer
+
+执行情况：
+![image](https://github.com/8upersaiyan/TinyNetworkLibrary/assets/102213169/cf4c369a-080c-4c5e-be5e-06a10d385534)
+
+使用Apache Benchmark压测：
+在使用VMware虚拟机 Ubuntu 18.04.6 LTS CPU核数：4 系统运行内存4GB （setThreadNums = 4）
+
+    ab -n 1000000 -c 1000 -k http://127.0.0.1:8000/hello
+
+数据为：
+
+    Server Software:        Muduo
+    Server Hostname:        192.168.11.129
+    Server Port:            8080
+    
+    Concurrency Level:      1000
+    Time taken for tests:   62.436 seconds
+    Complete requests:      1000000
+    Failed requests:        0
+    Keep-Alive requests:    1000000
+    Total transferred:      112000000 bytes
+    HTML transferred:       14000000 bytes
+    Requests per second:    20171.60 [#/sec] (mean)
+    Time per request:       50.376 [ms] (mean)
+    Time per request:       0.050 [ms] (mean, across all concurrent requests)
+    Transfer rate:          2182.08 [Kbytes/sec] received
 
 
+    
 
