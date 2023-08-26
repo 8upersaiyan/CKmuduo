@@ -73,13 +73,15 @@ https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
 
     ab -n 1000000 -c 1000 -k http://127.0.0.1:8000/hello
 
+模拟1000个客户端同时访问 ” http://127.0.0.1:8000/hello “ 总计发出1,000,000个请求，所有的请求都会尝试重用TCP连接。
+
 数据为：
 
     Server Software:        Muduo
     Server Hostname:        192.168.11.129
     Server Port:            8080
     
-    Concurrency Level:      1000
+    Concurrency Level:      1000              
     Time taken for tests:   62.436 seconds
     Complete requests:      1000000
     Failed requests:        0
@@ -91,6 +93,12 @@ https://blog.csdn.net/super8ayan/category_12359543.html?spm=1001.2014.3001.5482
     Time per request:       0.050 [ms] (mean, across all concurrent requests)
     Transfer rate:          2182.08 [Kbytes/sec] received
 
+解释：
+    服务器监听在192.168.11.129的8080端口上；
+    服务器能够很好地处理高并发请求，在1000并发连接下，成功完成了1000000次请求，且没有任何请求失败；
+    服务器的吞吐率为20171.60请求/秒，这意味着它在每秒内能处理超过2万个请求。
+    服务器的响应时间相当快，每个请求的平均响应时间只有50.376毫秒，而在高并发情况下，这一数字降至0.050毫秒。
+    服务器在测试期间传输了大量的数据，平均传输速率为2182.08KB/秒。
+    ![image](https://github.com/8upersaiyan/TinyNetworkLibrary/assets/102213169/09f42a05-c3e3-4983-8f1d-0f0451de077d)
 
-    
 
