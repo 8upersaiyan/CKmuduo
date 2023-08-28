@@ -8,15 +8,15 @@
 * 项目构建：`cmake version 3.20.2`
 # 项目描述
 * 学习陈硕老师的 C++ muduo 网络库优秀的代码设计及编程方法。
-* 去掉了Muduo库中的Boost依赖，完全使用C++标准，如使用std::function<>。
+* 去掉了Muduo库中的Boost依赖，完全使用C++11标准。
 * 底层使用 Epoll + LT 模式的 I/O 复用模型，并且结合非阻塞 I/O 实现主从 Reactor 模型。
 * 采用「one loop per thread」线程模型，并向上封装线程池避免线程创建和销毁带来的性能开销。
-* 使用 Epoll + LT 模式的 I/O 复用模型，并且结合非阻塞 I/O 实现主从 Reactor 模型。
 * 基于自实现的双缓冲区实现异步日志，由后端线程负责定时向磁盘写入前端日志信息，支持日志滚动功能。
 * 基于红黑树实现定时器管理结构，内部使用 Linux 的 timerfd 通知到期任务，高效管理定时任务。
 * 实现 Channel、Poller、EventLoop、TcpServer、Buffer、TcpConnection 等重要部分。
 * 提供面向用户的TcpServer类，用户只需要通过bind绑定自定义的回调方法即可开始使用。
-* 实现了echo服务器和一个小型的HTTP服务器，可支持GET请求和静态资源访问，使用了Apache Benchmark做了压测。
+* 实现了echo服务器和一个小型的HTTP服务器，可支持GET请求和静态资源访问.
+* 使用了Apache Benchmark做了压测，具体数据如下。
 
 
 # 具体实现细节博客
