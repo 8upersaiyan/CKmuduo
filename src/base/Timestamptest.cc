@@ -1,4 +1,4 @@
-#include "Timestamp.h"
+﻿#include "Timestamp.h"
 #include <time.h>
 
 Timestamp::Timestamp()
@@ -64,4 +64,11 @@ std::string Timestamp::toString() const
     tm_time->tm_sec
     );
     return buf;
+}
+
+#include <iostream>
+int main()
+{
+    std::cout<<Timestamp::now().toString()<<std::endl;
+    return 0;
 }

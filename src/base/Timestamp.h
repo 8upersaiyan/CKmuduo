@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include <sys/time.h>
 
 class Timestamp
 {
@@ -12,7 +13,7 @@ class Timestamp
         explicit Timestamp(int64_t microSecondsSinceRpoch_);
         //显示当前时间戳 并返回一个Timestamp对象
         static Timestamp now();
-        //格式转化方法 将字符串转化成时间字符串
+        //格式转化方法 将字符串转化成时间字符串string形式返回
         std::string toString() const;
         //格式, "%4d年%02d月%02d日 星期%d %02d:%02d:%02d.%06d",时分秒.微秒
         std::string toFormattedString(bool showMicroseconds = false) const;
@@ -24,6 +25,8 @@ class Timestamp
 
         //返回当前时间戳的微妙
         int64_t microSecondsSinceEpoch() const { return microSecondsSinceRpoch_; }
+
+        // 1秒=1000*1000微妙
         static const int kMicroSecondsPerSecond = 1000 * 1000;
 
         // 失效的时间戳，返回一个值为0的Timestamp
@@ -33,6 +36,7 @@ class Timestamp
         }
             
     private:
+        // 表示时间的微秒数（自epoch开始经历的微秒数）
         int64_t microSecondsSinceRpoch_;
 };
 
