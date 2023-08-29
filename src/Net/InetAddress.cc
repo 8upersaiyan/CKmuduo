@@ -30,7 +30,7 @@ uint16_t InetAddress::toPort() const
 
 std::string InetAddress::toIpPort() const
 {
-    //组合成 ip ：port  
+    //组合成 ip ：port    
     char buf[64] = {0};
     //::inet_ntop() 使用了全局命名空间中的 inet_ntop() 函数
     //保证调用的是全局作用域之中的函数
