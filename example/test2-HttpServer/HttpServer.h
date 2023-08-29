@@ -26,7 +26,6 @@ public:
     {
         httpCallback_ = cb;
     }
-    
     void start();
 
 private:

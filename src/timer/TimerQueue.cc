@@ -81,7 +81,6 @@ void TimerQueue::resetTimerfd(int timerfd_, Timestamp expiration)
     {
         microSecondDif = 100;
     }
-
     struct timespec ts;
     ts.tv_sec = static_cast<time_t>(
         microSecondDif / Timestamp::kMicroSecondsPerSecond);
@@ -113,8 +112,7 @@ std::vector<TimerQueue::Entry> TimerQueue::getExpired(Timestamp now)
     Entry sentry(now, reinterpret_cast<Timer*>(UINTPTR_MAX));
     TimerList::iterator end = timers_.lower_bound(sentry);
     std::copy(timers_.begin(), end, back_inserter(expired));
-    timers_.erase(timers_.begin(), end);
-    
+    timers_.erase(timers_.begin(), end);  
     return expired;
 }
 
@@ -122,9 +120,7 @@ void TimerQueue::handleRead()
 {
     Timestamp now = Timestamp::now();
     ReadTimerFd(timerfd_);
-
     std::vector<Entry> expired = getExpired(now);
-
     // 遍历到期的定时器，调用回调函数
     callingExpiredTimers_ = true;
     for (const Entry& it : expired)
@@ -154,7 +150,6 @@ void TimerQueue::reset(const std::vector<Entry>& expired, Timestamp now)
         {
             delete it.second;
         }
-
         // 如果重新插入了定时器，需要继续重置timerfd
         if (!timers_.empty())
         {
@@ -173,9 +168,7 @@ bool TimerQueue::insert(Timer* timer)
         // 说明最早的定时器已经被替换了
         earliestChanged = true;
     }
-
     // 定时器管理红黑树插入此新定时器
     timers_.insert(Entry(when, timer));
-
     return earliestChanged;
 }
