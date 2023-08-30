@@ -55,7 +55,6 @@ void Channel::remove()
 }
 
 
-
 //fd得到poller通知以后，处理事件的
 void Channel::handleEvent(Timestamp receiveTime)
 {

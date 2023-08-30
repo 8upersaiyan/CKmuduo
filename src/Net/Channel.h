@@ -2,19 +2,15 @@
 
 #include "noncopyable.h"
 #include "Timestamp.h"
-
 #include <functional>
 #include <memory>
-
 class EventLoop;
 class Timestamp;
-
 /**
  * 理清楚  EventLoop、Channel、Poller之间的关系   =》 Reactor模型上对应 Demultiplex, 采用one loop per thread
  * Channel 理解为通道，封装了sockfd和其感兴趣的event，如EPOLLIN、EPOLLOUT事件
  * 还绑定了poller监听返回的具体事件
  */ 
-
 class Channel : noncopyable
 {
 public:
@@ -69,6 +65,7 @@ private://内部接口
     void handleEventWithGuard(Timestamp receiveTime);//受保护的处理事件 
    
     //表示当前fd和其状态，是没有对任何事件感兴趣，还是对读或者写感兴趣 
+    //给events_用的
     static const int kNoneEvent;//都不感兴趣 
     static const int kReadEvent;//读事件 
     static const int kWriteEvent;//写事件 
