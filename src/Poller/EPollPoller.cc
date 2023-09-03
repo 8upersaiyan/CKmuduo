@@ -15,7 +15,7 @@ const int kAdded = 1;
 const int kDeleted = 2;
 
 EPollPoller::EPollPoller(EventLoop *loop)//构造函数 
-    : Poller(loop)
+    : Poller(loop) //基类构造
     , epollfd_(::epoll_create1(EPOLL_CLOEXEC))
     , events_(kInitEventListSize)//创建vector<epoll_event> //默认的长度是16 
 {
@@ -133,7 +133,8 @@ void EPollPoller::fillActiveChannels(int numEvents, ChannelList *activeChannels)
 {
     for (int i=0; i < numEvents; ++i)
     {
-        Channel *channel = static_cast<Channel*>(events_[i].data.ptr);//类型强转 
+        //根据events[i]中的
+        Channel *channel = static_cast<Channel*>(events_[i].data.ptr);//类型强转  
         channel->set_revents(events_[i].events); //设置当前发生事件的 revents
         activeChannels->push_back(channel);//EventLoop就拿到了它的poller给它返回的所有发生事件的channel列表了
         //至于EventLoop拿到这些channel干什么事情，我们看 EventLoop的代码 
