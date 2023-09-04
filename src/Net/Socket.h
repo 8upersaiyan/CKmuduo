@@ -12,12 +12,12 @@ public:
     ~Socket();
 
     int fd() const { return sockfd_; }
-    void bindAddress(const InetAddress &localaddr);
-    void listen();
-    int accept(InetAddress *peeraddr);
-
-    void shutdownWrite();
-
+    void bindAddress(const InetAddress &localaddr); //调用bind绑定服务器Ip端口
+    void listen(); //调用listen监听套接字
+    int accept(InetAddress *peeraddr);  //调用accept接收新客户连接请求
+    void shutdownWrite();  //调用shutdown关闭服务端写通道
+    
+    // 这四个函数都是调用setsocket来设置一些socket选项
     void setTcpNoDelay(bool on);//直接发送，数据不进行TCP缓存 
     void setReuseAddr(bool on);
     void setReusePort(bool on);

@@ -49,9 +49,12 @@ void Acceptor::listen()
 void Acceptor::handleRead()
 {
     InetAddress peerAddr;
+    // 接受新连接
     int connfd = acceptSocket_.accept(&peerAddr);
+    // 确实有新连接到来
     if (connfd >= 0)
     {
+        // TcpServer::NewConnectionCallback_ 由 TcpServer设置的
         if (newConnectionCallback_)
         {
             newConnectionCallback_(connfd, peerAddr);//轮询找到subLoop，唤醒，分发当前的新客户端的Channel
@@ -61,7 +64,7 @@ void Acceptor::handleRead()
             ::close(connfd);
         }
     }
-    else
+    else//出错了
     {
         LOG_ERROR("%s:%s:%d accept err:%d \n", __FILE__, __FUNCTION__, __LINE__, errno);
         if (errno == EMFILE)
