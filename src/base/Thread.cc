@@ -61,5 +61,4 @@ void Thread::setDefaultName()
         snprintf(buf,sizeof(buf),"Thread&d",num);
         name_ = buf;
     }
-
 }

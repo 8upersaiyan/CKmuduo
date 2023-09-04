@@ -34,10 +34,9 @@ private:
 	//对应一个线程，就是当前用户使用线程 EventLoop loop;负责用户的连接，已连接用户的读写 
 	
     std::string name_;
-    bool started_;
+    bool started_;  //表示 EventLoopPool 是否已启动
     int numThreads_;  //线程数量
     int next_;//做轮询的下标使用的 
     std::vector<std::unique_ptr<EventLoopThread>> threads_;//所有事件的线程 
     std::vector<EventLoop*> loops_;//事件线程EventLoopThread里面的EventLoop指针 
 };
-

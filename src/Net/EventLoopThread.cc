@@ -50,16 +50,13 @@ void EventLoopThread::threadFunc()
     {
         callback_(&loop);//绑定loop做一些事情
     }
-
     {
         std::unique_lock<std::mutex> lock(mutex_);
         loop_ = &loop;//就是运行在这个线程的loop对象
         cond_.notify_one();//唤醒1个线程
     }
-
     // 一般来说会一直在loop函数中循环  
     loop.loop();//相当于EventLoop loop  => Poller.poll
-
     //执行到这个下边就说明服务器程序要关闭掉了
     std::unique_lock<std::mutex> lock(mutex_);
     loop_ = nullptr;

@@ -4,6 +4,7 @@
 #include <functional>
 #include <thread>
 #include <string>
+#include <memory.h>
 #include <atomic>
 
 class Thread : noncopyable
