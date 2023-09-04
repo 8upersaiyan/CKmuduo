@@ -9,6 +9,7 @@
 
 #include "noncopyable.h"
 #include "Timestamp.h"
+#include "TimerQueue.h"
 #include "CurrentThread.h"
 
 class Channel;
@@ -22,7 +23,6 @@ public:
     //using代替typedef，进行类型的重命名 
 
     EventLoop();
-
     ~EventLoop();
 
     //开启事件循环
@@ -47,7 +47,23 @@ public:
     bool hasChannel(Channel *channel);
 
     //判断EventLoop对象是否在自己的线程里面
+    //在自己线程里执行runInLoop 不在自己线程里执行queueInLoop
     bool isInLoopThread() const { return threadId_ ==  CurrentThread::tid(); }
+
+    //定时任务相关函数
+    void runAt(Timestamp timestamp, Functor&& cb) {
+        timerQueue_->addTimer(std::move(cb), timestamp, 0.0);
+    }
+
+    void runAfter(double waitTime, Functor&& cb) {
+        Timestamp time(addTime(Timestamp::now(), waitTime)); 
+        runAt(time, std::move(cb));
+    }
+
+    void runEvery(double interval, Functor&& cb) {
+        Timestamp timestamp(addTime(Timestamp::now(), interval)); 
+        timerQueue_->addTimer(std::move(cb), timestamp, interval);
+    }
 
 private:
     void handleRead();//唤醒wake up
@@ -61,6 +77,7 @@ private:
     const pid_t threadId_;//记录当前loop所在线程的id
     Timestamp pollReturnTime_;//poller返回发生事件的channels的时间点
     std::unique_ptr<Poller> poller_;//eventloop所管理的poller 
+    std::unique_ptr<TimerQueue> timerQueue_;
 
     //mainReactor如何将发生事件的channel给到subReactor
     int wakeupFd_;//linux内核的eventfd创建出来的 
@@ -69,6 +86,7 @@ private:
     std::unique_ptr<Channel> wakeupChannel_;//包括wakeupFd和感兴趣的事件的channel指针 
     
     ChannelList activeChannels_;//eventloop管理的所有channel 
+    Channel* currentActtiveChannel_; //当前处理的活跃channel
 
     std::atomic_bool callingPendingFunctors_;//标识当前loop是否有需要执行的回调操作
     std::vector<Functor> pendingFunctors_;//存储loop需要执行的所有的回调操作

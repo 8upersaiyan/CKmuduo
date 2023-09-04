@@ -54,7 +54,7 @@ inline bool operator==(Timestamp lhs, Timestamp rhs)
 }
 
 // 如果是重复定时任务就会对此时间戳进行增加。
-static inline Timestamp addTimec(Timestamp timestamp, double seconds)
+static inline Timestamp addTime(Timestamp timestamp, double seconds)
 {
     // 将延时的秒数转换为微妙
     int64_t delta = static_cast<int64_t>(seconds * Timestamp::kMicroSecondsPerSecond);

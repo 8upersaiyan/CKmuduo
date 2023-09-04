@@ -16,6 +16,8 @@ __thread EventLoop *t_loopInThisThread = nullptr;
 const int kPollTimeMs = 10000;//10秒钟 
 
 //创建wakeupfd，用来notify唤醒subReactor处理新来的channel
+//EFD_NONBLOCK  eventfd 将被设置为非阻塞模式。在非阻塞模式下，如果一个读写操作不能立即完成，线程状态不变立即返回一个返回值
+//EFD_CLOEXEC eventfd将在“exec（）”函数调用后自动关闭
 int createEventfd()
 {
     int evtfd = ::eventfd(0, EFD_NONBLOCK | EFD_CLOEXEC);
@@ -32,8 +34,10 @@ EventLoop::EventLoop()//构造函数
     , callingPendingFunctors_(false)
     , threadId_(CurrentThread::tid())
     , poller_(Poller::newDefaultPoller(this))
+    , timerQueue_(new TimerQueue(this))
     , wakeupFd_(createEventfd())
     , wakeupChannel_(new Channel(this, wakeupFd_))//this:需要知道Channnel所在的loop
+    , currentActtiveChannel_(nullptr)
 {
     LOG_DEBUG("EventLoop created %p in thread %d \n", this, threadId_);
     if (t_loopInThisThread)//这个线程已经有loop了，就不创建了 
@@ -86,6 +90,12 @@ void EventLoop::loop()
          * IO线程 mainLoop：accept  channel打包fd ---》 subloop 1个mainloop 3个subloop 
          * mainLoop 事先注册一个回调cb（需要subloop来执行）  mainloop wakeup subloop后，
 		 执行下面的方法，执行之前mainloop注册的cb操作
+        * IO thread: mainLoop accept fd 打包成channel分发给subLoop
+        * mainLoop实现注册一个回调，交给subLoop来执行wakeup subLoop之后 让其执行注册的回调操作
+        * 这些回调函数在
+        * 
+        * 
+        * 
          */ 
         doPendingFunctors();//mainloop注册回调给subloop。 
     }
@@ -190,18 +200,15 @@ void EventLoop::doPendingFunctors()//执行回调 在loop中调用的方法
 {
     std::vector<Functor> functors;
     callingPendingFunctors_ = true;
-
     {
         std::unique_lock<std::mutex> lock(mutex_);
         functors.swap(pendingFunctors_);//资源交换，把pendingFunctors_ 置为空
 		//不需要pendingFunctors_了  不妨碍 mainloop向 pendingFunctors_写回调操作cb 
     }
-
     for (const Functor &functor : functors)
     {
         functor();//执行当前loop需要执行的回调操作
     }
-
     callingPendingFunctors_ = false;
 }
 
