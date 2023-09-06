@@ -38,10 +38,10 @@ public:
     ~TcpServer();
     
     //用户在使用muduo库必须设置的 
-    void setThreadInitcallback(const ThreadInitCallback &cb) { threadInitCallback_ = cb; }
-    void setConnectionCallback(const ConnectionCallback &cb) { connectionCallback_ = cb; }
-    void setMessageCallback(const MessageCallback &cb) { messageCallback_ = cb; }
-    void setWriteCompleteCallback(const WriteCompleteCallback &cb) { writeCompleteCallback_ = cb; }
+    void setThreadInitcallback(const ThreadInitCallback &cb) { threadInitCallback_ = cb; }//设置线程初始化回调。
+    void setConnectionCallback(const ConnectionCallback &cb) { connectionCallback_ = cb; }//设置新连接回调。
+    void setMessageCallback(const MessageCallback &cb) { messageCallback_ = cb; }//设置消息回调。
+    void setWriteCompleteCallback(const WriteCompleteCallback &cb) { writeCompleteCallback_ = cb; }//设置写完成回调。
 
     //设置底层subloop的个数
     void setThreadNum(int numThreads);
@@ -73,7 +73,6 @@ private:
     MessageCallback messageCallback_;//已连接用户有读写消息时的回调 reactor调用 
     WriteCompleteCallback writeCompleteCallback_;//消息发送完成以后的回调
     ThreadInitCallback threadInitCallback_;//loop线程初始化的回调
-
 
     std::atomic_int started_;//标志 
 

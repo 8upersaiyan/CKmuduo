@@ -33,7 +33,7 @@ TcpServer::TcpServer(EventLoop *loop,
     acceptor_->setNewConnectionCallback(std::bind(&TcpServer::newConnection, this, 
         std::placeholders::_1, std::placeholders::_2));
 }
-
+ 
 TcpServer::~TcpServer()
 {
     for (auto &item : connections_)

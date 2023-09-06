@@ -9,7 +9,7 @@ class Buffer
 {
 public:
     static const size_t kCheapPrepend = 8;//头部字节大小 记录数据包的长度 
-    static const size_t kInitialSize = 1024;//缓冲区的大小 
+    static const size_t kInitialSize = 1024;//缓冲区 的大小 
 
     explicit Buffer(size_t initialSize = kInitialSize)
         : buffer_(kCheapPrepend + initialSize)//开辟的大小 
@@ -46,7 +46,7 @@ public:
         retrieve(end - peek());
     }
     
-    //在onMessage的时候 把数据从Buffer转成string类型 
+    // 判断数据有没有一次性读完
     void retrieve(size_t len)
     {
         //没有一次性将数据读完
@@ -136,6 +136,10 @@ private:
     // 扩容函数
     void makeSpace(size_t len)
     {
+        /*
+        kCheapPrepend |    reader    |    writer  |
+        kCheapPrepend |            len            |
+        */
         if (writableBytes() + prependableBytes() < len + kCheapPrepend)
         {
             buffer_.resize(writerIndex_ + len);

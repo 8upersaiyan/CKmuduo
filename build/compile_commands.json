@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/base/CurrentThread.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/base/CurrentThread.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/base/CurrentThread.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/base/Thread.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/base/Thread.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/base/Thread.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/base/Timestamp.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/base/Timestamp.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/base/Timestamp.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/Acceptor.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/Acceptor.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/Acceptor.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/Channel.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/Channel.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/Channel.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/EventLoop.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/EventLoop.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/EventLoop.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/EventLoopThread.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/EventLoopThread.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/EventLoopThread.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/EventLoopThreadPool.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/EventLoopThreadPool.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/InetAddress.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/InetAddress.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/InetAddress.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/Socket.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/Socket.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/Socket.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/TcpConnection.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/TcpConnection.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/TcpConnection.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Net/TcpServer.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Net/TcpServer.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Net/TcpServer.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Poller/DefaultPoller.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Poller/DefaultPoller.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller/DefaultPoller.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Poller/EPollPoller.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Poller/EPollPoller.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller/EPollPoller.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Poller/Poller.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Poller/Poller.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller/Poller.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Logger/Logger.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Logger/Logger.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger/Logger.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/Buffer/Buffer.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer/Buffer.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer/Buffer.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/timer/Timer.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/timer/Timer.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/timer/Timer.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/timer/TimerQueue.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/timer/TimerQueue.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/timer/TimerQueue.cc"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/mysql/CommonConnectionPool.cpp.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/mysql/CommonConnectionPool.cpp",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql/CommonConnectionPool.cpp"
+},
+{
+  "directory": "/c++/MyMuduo/CKmuduo/CKmuduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS -I/c++/MyMuduo/CKmuduo/CKmuduo/src/base -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Net -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Buffer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Poller -I/c++/MyMuduo/CKmuduo/CKmuduo/src/Logger -I/c++/MyMuduo/CKmuduo/CKmuduo/src/timer -I/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql -I/usr/include/mysql  -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/src/mysql/Connection.cc.o -c /c++/MyMuduo/CKmuduo/CKmuduo/src/mysql/Connection.cc",
+  "file": "/c++/MyMuduo/CKmuduo/CKmuduo/src/mysql/Connection.cc"
+}
+]
