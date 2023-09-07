@@ -82,7 +82,6 @@ private:
     //mainReactor如何将发生事件的channel给到subReactor
     int wakeupFd_;//linux内核的eventfd创建出来的 
 	//主要作用，当mainLoop获取一个新用户的channel，通过轮询算法选择一个subloop，通过该成员唤醒subloop处理channel
-	
     std::unique_ptr<Channel> wakeupChannel_;//包括wakeupFd和感兴趣的事件的channel指针 
     
     ChannelList activeChannels_;//eventloop管理的所有channel 

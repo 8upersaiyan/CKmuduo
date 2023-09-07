@@ -26,7 +26,6 @@ void EventLoopThreadPool::start(const ThreadInitCallback &cb)
         threads_.push_back(std::unique_ptr<EventLoopThread>(t)); //unique_ptr，不想手动delete
         loops_.push_back(t->startLoop());//底层创建线程，绑定一个新的EventLoop，并返回该loop的地址
     }
-
     //整个服务端只有一个线程，运行着baseloop，就是用户创建的mainloop
     if (numThreads_ == 0 && cb)
     {

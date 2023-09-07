@@ -94,8 +94,6 @@ void EventLoop::loop()
         * mainLoop实现注册一个回调，交给subLoop来执行wakeup subLoop之后 让其执行注册的回调操作
         * 这些回调函数在
         * 
-        * 
-        * 
          */ 
         doPendingFunctors();//mainloop注册回调给subloop。 
     }
@@ -211,4 +209,3 @@ void EventLoop::doPendingFunctors()//执行回调 在loop中调用的方法
     }
     callingPendingFunctors_ = false;
 }
-
