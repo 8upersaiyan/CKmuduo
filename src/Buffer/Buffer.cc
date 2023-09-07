@@ -14,7 +14,8 @@ ssize_t Buffer::readFd(int fd, int* saveErrno)
 {
     char extrabuf[65536] = {0};//栈上的内存空间  一次最多读64K
     
-    struct iovec vec[2];//
+    struct iovec vec[2];
+
     
     const size_t writable = writableBytes();//这是Buffer底层缓冲区剩余的可写空间大小
     vec[0].iov_base = begin() + writerIndex_;
