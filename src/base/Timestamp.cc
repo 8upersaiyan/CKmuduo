@@ -13,8 +13,14 @@ Timestamp::Timestamp(int64_t microSecondsSinceRpoch)
 //显示当前时间 
 Timestamp Timestamp::now()
 {
-    time_t timenow = time(NULL);
-    return Timestamp(timenow);
+    // time_t timenow = time(NULL);
+    // return Timestamp(timenow);
+    
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    int64_t time = tv.tv_sec * 1000000 + tv.tv_usec; // 转换为微秒
+    return Timestamp(time);
+    
 }
 
 // 2022/08/26 16:29:10
