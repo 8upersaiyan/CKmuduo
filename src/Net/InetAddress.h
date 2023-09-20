@@ -8,7 +8,7 @@
  class InetAddress
  {
 public:
-    // explicit 方式隐式构造
+    // explicit 防止隐式构造
     //构造函数
     explicit InetAddress(uint16_t port = 0, std::string ip = "127.0.0.1");
     explicit InetAddress(const sockaddr_in &addr) : addr_(addr) {}
