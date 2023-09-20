@@ -95,7 +95,7 @@ void EPollPoller::updateChannel(Channel *channel)
         }
 
         channel->set_index(kAdded);
-        update(EPOLL_CTL_ADD, channel);//相当于调用epoll_ctr，添加1个channel到epoll中 
+        update(EPOLL_CTL_ADD, channel);//相当于调用epoll_ctl，添加1个channel到epoll中 
     }
     else//channel已经在poller上注册过了
     {

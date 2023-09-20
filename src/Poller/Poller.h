@@ -38,6 +38,7 @@ public:
 protected:
     //map的key：sockfd  value：sockfd所属的channel通道类型
     using ChannelMap = std::unordered_map<int, Channel*>;
+    // 储存 channel的映射 sockfd -> channel* 
     ChannelMap channels_;
 
 private:
