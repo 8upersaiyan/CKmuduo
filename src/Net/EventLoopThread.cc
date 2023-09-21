@@ -33,7 +33,7 @@ EventLoop* EventLoopThread::startLoop()//开启循环
         std::unique_lock<std::mutex> lock(mutex_);
         while ( loop_ == nullptr )
         {
-            cond_.wait(lock);//挂起，等待  threadFunc中的loop创建好并通知
+            cond_.wait(lock);//挂起，等待threadFunc中的loop创建好并通知
         }
         loop = loop_;
     }
