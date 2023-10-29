@@ -58,7 +58,7 @@ private:
 	//私有的内部使用的接口 
     void newConnection(int sockfd, const InetAddress &peerAddr);//有新连接来了 
     void removeConnection(const TcpConnectionPtr &conn);//有连接断开了，不要这条连接了 
-    void removeConnectionInLoop(const TcpConnectionPtr &conn);
+    void removeConnectionInLoop(const TcpConnectionPtr &conn);//保证移除连接是在主线程中进行的
     
 
     EventLoop *loop_;//baseLoop 用户定义的loop 一个线程一个loop循环 

@@ -3,6 +3,7 @@
 #include "TcpConnection.h"
 
 #include <strings.h>
+#include <cstring>
 #include <functional>
 
 static EventLoop* CheckLoopNotNull(EventLoop *loop)
@@ -84,7 +85,8 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
 
     //通过sockfd获取其绑定的本机的ip地址和端口信息
     sockaddr_in local;// IPv4 地址
-    ::bzero(&local, sizeof local);
+    // ::bzero(&local, sizeof local);
+    ::memset(&local, 0, sizeof local);
     socklen_t addrlen = sizeof local;
     if (::getsockname(sockfd, (sockaddr*)&local, &addrlen) < 0)
     {

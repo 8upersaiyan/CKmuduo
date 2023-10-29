@@ -6,7 +6,7 @@
 //初始化InetAddress地址类对象
 InetAddress::InetAddress(uint16_t port, std::string ip)
 {
-    bzero(&addr_, sizeof addr_); //将 addr_ 的内存空间清零
+    memset(&addr_, 0, sizeof addr_); //将 addr_ 的内存空间清零
     addr_.sin_family = AF_INET; //表示使用 IPv4 地址族
     addr_.sin_port = htons(port); //将主机字节序转换为网络字节序，设置端口号
     addr_.sin_addr.s_addr = inet_addr(ip.c_str()); //转换为网络字节序的 IPv4 地址
